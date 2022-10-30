@@ -57,7 +57,7 @@ abstract contract DynamicArweaveHash is ERC721SingleCreatorExtension, CreatorExt
         imageArweaveHashes = _arweaveHashes;
     }
 
-    function setAnimationAreaveHashes(string[] memory _arweaveHashes) external virtual onlyOwner {
+    function setAnimationArweaveHashes(string[] memory _arweaveHashes) external virtual onlyOwner {
         animationArweaveHashes = _arweaveHashes;
     }
 }
